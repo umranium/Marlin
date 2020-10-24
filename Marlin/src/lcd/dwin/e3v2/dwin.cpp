@@ -86,13 +86,13 @@
 #endif
 
 #ifndef MACHINE_SIZE
-  #define MACHINE_SIZE "220x220x250"
+  #define MACHINE_SIZE "230x230x250"
 #endif
 #ifndef CORP_WEBSITE_C
   #define CORP_WEBSITE_C "www.cxsw3d.com"
 #endif
 #ifndef CORP_WEBSITE_E
-  #define CORP_WEBSITE_E "www.creality.com"
+  #define CORP_WEBSITE_E "www.umranium.com"
 #endif
 
 #define PAUSE_HEAT

@@ -968,8 +968,8 @@ void setup() {
   MYSERIAL0.begin(BAUDRATE);
   uint32_t serial_connect_timeout = millis() + 1000UL;
   while (!MYSERIAL0 && PENDING(millis(), serial_connect_timeout)) { /*nada*/ }
-  #if HAS_MULTI_SERIAL
-    MYSERIAL1.begin(BAUDRATE);
+  #if HAS_MULTI_SERIAL && !HAS_ETHERNET
+    MYSERIAL1.begin(115200);
     serial_connect_timeout = millis() + 1000UL;
     while (!MYSERIAL1 && PENDING(millis(), serial_connect_timeout)) { /*nada*/ }
   #endif
