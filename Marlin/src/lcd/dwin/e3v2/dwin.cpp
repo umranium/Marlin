@@ -89,7 +89,7 @@
   #define MACHINE_SIZE STRINGIFY(X_BED_SIZE) "x" STRINGIFY(Y_BED_SIZE) "x" STRINGIFY(Z_MAX_POS)
 #endif
 #ifndef CORP_WEBSITE
-  #define CORP_WEBSITE WEBSITE_URL
+  #define CORP_WEBSITE "www.umranium.com"
 #endif
 
 #define PAUSE_HEAT
